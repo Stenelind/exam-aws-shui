@@ -1,0 +1,119 @@
+.message {
+    background-color: #001b4f;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    text-align: left;
+}
+
+.message-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.message-header strong {
+    font-size: 1.1rem;
+    color: whitesmoke;
+}
+
+.message p {
+    margin-right: 2rem;
+    color: whitesmoke;
+}
+
+.message small {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.8rem;
+    color: #aaa;
+}
+
+.delete-btn,
+.edit-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-btn {
+    color: lightgray;
+    font-size: 0, 9rem;
+}
+
+.delete-btn:hover {
+    color: darkgray;
+}
+
+.message-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .4rem;
+}
+
+.edit-btn {
+    color: lightgray;
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+.edit-btn:hover {
+    color: darkgray;
+}
+
+.message-edit {
+    width: 80%;
+    height: 50%;
+    padding: .4rem;
+    border-color: whitesmoke;
+    border-radius: 8px;
+    background-color: #001b4f;
+    color: whitesmoke;
+    resize: none;
+}
+
+@media (max-width: 768px) {
+    .message {
+        padding: 10px;
+    }
+
+    .message-header strong {
+        font-size: 1rem;
+    }
+
+    .message small {
+        font-size: 0.7rem;
+    }
+
+    .delete-btn,
+    .edit-btn {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .message {
+        padding: 8px;
+    }
+
+    .message-header strong {
+        font-size: 0.9rem;
+    }
+
+    .message small {
+        font-size: 0.6rem;
+    }
+
+    .delete-btn,
+    .edit-btn {
+        font-size: 0.8rem;
+    }
+}
