@@ -40,7 +40,7 @@
   border: none;
   color: lightgray;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 2rem;
   margin-top: 10px;
 }
 
@@ -61,7 +61,7 @@
   border: none;
   color: lightgray;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-top: 10px;
 }
 
@@ -87,10 +87,6 @@
   .message-list {
     padding: 10px;
     max-height: 60vh;
-  }
-
-  .message {
-    padding: 12px;
   }
 
   .search-sort-container {

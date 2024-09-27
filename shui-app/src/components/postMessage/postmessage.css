@@ -6,7 +6,7 @@
     background-color: #001737;
     color: whitesmoke;
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -50,20 +50,5 @@
 
     .post-message-form button {
         padding: 8px;
-    }
-}
-
-@media (max-width: 480px) {
-    .post-message-form {
-        padding: 10px;
-    }
-
-    .post-message-form textarea,
-    .post-message-form input {
-        padding: 5px;
-    }
-
-    .post-message-form button {
-        padding: 5px;
     }
 }

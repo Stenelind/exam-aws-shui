@@ -71,7 +71,7 @@ const GetMessage = () => {
 
   return (
     <div className="message-container">
-      <h2 className="header">Shui</h2>
+      <h1 className="header">Shui</h1>
       <div className="search-sort-container">
         <input
           type="text"
